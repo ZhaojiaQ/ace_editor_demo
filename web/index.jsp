@@ -52,9 +52,9 @@
 <body>
 
 <div class="container">
-    <h1>杂七杂八主界面</h1>
-    <h2>爱你恨你怨你念你深情永不变
-        <small>别忘了寂寞的山谷的角落野百合也有春天</small>
+    <h1>初始界面</h1>
+    <h2>JSP
+        <small>Study</small>
     </h2>
     <div class="row">
         <div class="col-md-4">
@@ -77,29 +77,11 @@
             </br>
             </br>
             <p>你还没有账号吗？</p>
-            <a href="register.html">点击进入网站的注册界面</a>
+            <a href="register.jsp">点击进入网站的注册界面</a>
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <h3>第一列</h3>
-            <p>学的不仅是技术，更是梦想！</p>
-            <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
-        </div>
-        <div class="col-md-4">
-            <h3>第二列</h3>
-            <p>学的不仅是技术，更是梦想！</p>
-            <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
-        </div>
-        <div class="col-md-4">
-            <h3>第三列</h3>
-            <p>学的不仅是技术，更是梦想！</p>
-            <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
-        </div>
-    </div>
-</div>
+
 
 </body>
 </html>
