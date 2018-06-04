@@ -6,12 +6,30 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script type="text/javascript" src="JavaScript/jquery-3.3.1.min.js"></script>
     <script type="text/css" src="bootstrap-3.3.7/css/bootstrap.min.css"></script>
+    <script type="text/javascript" src="JavaScript/register.js"></script>
     <link href="bootstrap-3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript">
+        function abc() {
+            var a = $("#password1").val();
+            var b = $("#password2").val();
+            if(a===b)
+            {
+                window.alert("hello world !");
+                return true;
+            }
+            else
+            {
+                window.alert("密码不一致，请重试!");
+                return false;
+            }
+        };
+
+    </script>
     <title>用户注册</title>
 </head>
 <body>
 <div class="container">
-    <form action="regCheck.jsp" id="regForm" name="regForm" method="post" class="form-horizontal">
+    <form action="regCheck.jsp" id="regForm" name="regForm" method="post" class="form-horizontal" onsubmit="return abc()">
         <fieldset>
             <legend><span class="glyphicon glyphicon-user"></span>&nbsp;用户注册</legend>
             <div class="form-group" id="userNameDiv">
@@ -25,7 +43,7 @@
             <div class="form-group" id="password1Div">
                 <label class="col-md-3 control-label" for="password1">密码：</label>
                 <div class="col-md-5">
-                    <input type="text" class="form-control" id="password1" name="password1" placeholder="请输入你的密码">
+                    <input type="password" class="form-control" id="password1" name="password1" placeholder="请输入你的密码">
                 </div>
                 <div class="col-md-4" id="password1Span"></div>
             </div>
@@ -33,7 +51,7 @@
             <div class="form-group" id="password2Div">
                 <label class="col-md-3 control-label" for="password2">确认密码：</label>
                 <div class="col-md-5">
-                    <input type="text" class="form-control" id="password2" name="password2" placeholder="请确认你的密码">
+                    <input type="password" class="form-control" id="password2" name="password2" placeholder="请确认你的密码">
                 </div>
                 <div class="col-md-4" id="password2Span"></div>
             </div>
