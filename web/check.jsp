@@ -1,21 +1,10 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: zjq
-  Date: 18-4-28
-  Time: 上午1:11
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" %>
-<%@page import="java.sql.Connection" %>
-<%@ page import="java.sql.DriverManager" %>
-<%@ page import="java.sql.PreparedStatement" %>
-<%@ page import="java.sql.ResultSet" %>
+<%@page import="java.sql.*" %>
 <html>
 <head>
     <title>Title</title>
     <script type="text/javascript" src="JavaScript/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="JavaScript/login.js"></script>
     <link href="bootstrap-3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 </head>
 <body>
@@ -27,8 +16,8 @@
 <%!
     boolean flag = false;
     public static final String DBURL = "jdbc:mysql://localhost:3306/study";
-    public static final String DBUSER = "root";
-    public static final String PASSWORD = "zjqzjq";
+    public static final String DBUSER = "debian-sys-maint";
+    public static final String PASSWORD = "XTCw1Z1fmTFIGqVT";
 %>
 <%
     Class.forName("com.mysql.jdbc.Driver");
@@ -58,7 +47,6 @@
 <h1>用户登录失败，请重新 <a href="login.jsp">登录</a></h1>
 <%
     }
-
 %>
 </body>
 </html>
