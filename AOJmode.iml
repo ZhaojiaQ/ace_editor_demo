@@ -21,11 +21,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="popper" level="application" />
-    <orderEntry type="library" name="ace" level="application" />
-    <orderEntry type="library" name="ext-language_tools" level="application" />
-    <orderEntry type="library" name="theme-monokai" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="ace_editor_demo" level="project" />
+    <orderEntry type="library" exported="" name="ace" level="application" />
+    <orderEntry type="library" exported="" name="ext-language_tools" level="application" />
+    <orderEntry type="library" name="lib" level="application" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/下载/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
