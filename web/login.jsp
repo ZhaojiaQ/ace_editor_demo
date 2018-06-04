@@ -10,7 +10,7 @@
 
 <html>
 <head>
-    <title>Bootstrap + jsp 开发案例</title>
+    <title>要登录的</title>
     <meta charset="UTF-8">
     <%--使用bootstrap必要标签--%>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
